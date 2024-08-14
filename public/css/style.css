@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+}
+
+.txt {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+
+}
+
+
+
+.nav>.tags {
+    display: flex;
+    gap: 5rem;
+    font-size: 1.5rem;
+
+}
+
+.tags>a {
+    color: black;
+    font-family: "Dancing Script", cursive;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.heromain>h1 {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 4.5rem;
+    font-style: normal;
+}
+
+.heromain>p {
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.btn>a>button {
+    padding: 1rem 3.5rem;
+    border-radius: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-family: cursive;
+    font-weight: 800;
+
+}
